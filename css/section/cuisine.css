@@ -1,0 +1,98 @@
+.cuisine {
+    background-color:  #0a0a0a;
+    color: white;
+}
+.cuisine-content {
+    padding: 60px 20px;
+    color: white;
+    font-family:  Cormorant Garamond, serif;
+}
+.cuisine-content p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 15px ;
+    padding: 15px;
+    color:( #c6a667,50%,transparent);
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuisine h2 {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 20px;
+    margin-top: 10%;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+    word-spacing: 5px;
+}
+.cuisine span {
+    color: #d9b46a;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 40px;
+    padding-bottom: 10%;
+}
+.cuisine-content-afro {
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    outline: #fff transparent solid 0.5px;
+}
+.cuisine-content-afro:hover {
+    outline: #d9b46a solid 0.2px;
+    transition: outline 0.5s ease-in-out;
+    cursor: pointer;
+}
+.cuisine-content-afro h4 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1;
+    margin: 18px;
+    font-family: cormorant garamond, serif;
+}
+.cuisine-content-afro p {
+    font-family: cormorant garamond, serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color:( #c6a667,50%,transparent);
+    margin: 18px;
+}
+.tittle-with-bar {
+    border-left: 3px solid #e85d32;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tittle-with-yellow-bar {
+    border-left: 3px solid #c6a667;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media (max-width: 650px) {
+    .grid {
+        display: block;
+        margin: 0 10px;
+    }
+    .cuisine h2 {
+        font-size: 1.8rem;
+        font-weight: 200;
+        line-height: 10px;
+        margin-top: 10%;
+        margin-bottom: 30px;
+        color: white;
+        text-align: center;
+        word-spacing: 5px;
+    }
+    .cuisine-content p {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
+
+

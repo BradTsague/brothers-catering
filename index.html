@@ -3,27 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/section/text.css" />
+    <link rel="stylesheet" href="css/section/cuisine.css" />
+    <link rel="stylesheet" href="css/section/services.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <title>BE BROTHERS CATERING</title>
   </head>
   <body>
     <section class="hero">
       <header class="hero-header">
-        <div class="logo">
-          <img
-            src="pictures/FullLogo_Transparent.png"
-            alt="BE BROTHERS CATERING Logo"
-          />
-          <div class="logo-text">
-            <h1>Be Brothers</h1>
-            <span>CATERING</span>
-          </div>
+        <div class="logo-text">
+          <h1>Be Brothers</h1>
+          <span>CATERING</span>
         </div>
         <nav class="hero-nav">
           <ul>
-            <li><a href="#">About </a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Cuisine</a></li>
+            <li><a href="#text">About </a></li>
+            <li><a href="#cuisine">Cuisine</a></li>
+            <li><a href="#">services</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
@@ -49,7 +50,121 @@
       </div>
     </section>
 
-    <section class="text"></section>
+    <section class="text" id="text">
+      <div class="content">
+        <h2>Two Chefs.<span>One Vision.</span></h2>
+        <p>
+          Born from Afro-Caribbean roots and raised with a passion for global
+          flavors, we are two brothers who believe food is more than
+          sustenance—it's storytelling, culture, and connection.
+        </p>
+        <p>
+          Our journey began in our grandmother's kitchen, where bold spices met
+          tender care. Today, we fuse those foundational Caribbean flavors with
+          Japanese precision, French technique, and fearless creativity.
+        </p>
+        <p>
+          From intimate private dinners to grand weddings, we bring elevated
+          Caribbean fusion cuisine to every occasion, crafting unforgettable
+          culinary experiences that honor tradition while embracing innovation.
+        </p>
+      </div>
+      <div class="container">
+        <div class="content-grid">
+          <h4>10+</h4>
+          <p>YEARS EXPERIENCE</p>
+        </div>
+        <div class="content-grid">
+          <h4>500+</h4>
+          <p>EVENTS CATERED</p>
+        </div>
+        <div class="content-grid">
+          <h4>4</h4>
+          <p>FUSION STYLE</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cuisine" id="cuisine">
+      <div class="cuisine-content">
+        <h2>Our Culinary <span>Identity</span></h2>
+        <p>
+          Four distinct fusion styles, infinite possibilities for your palate.
+        </p>
+      </div>
+      <div class="grid">
+        <div class="cuisine-content-afro">
+          <div class="tittle-with-bar">
+            <h4>Afro-Caribbean</h4>
+            <p>
+              Bold jerk spices, slow-braised oxtail, plantain mastery—rooted in
+              tradition, elevated with modern technique.
+            </p>
+          </div>
+        </div>
+        <div class="cuisine-content-afro">
+          <div class="tittle-with-yellow-bar">
+            <h4>Japanese-Caribbean</h4>
+            <p>
+              Where umami meets island heat. Think miso-glazed snapper, tamarind
+              ponzu, and perfectly seared tuna with scotch bonnet.
+            </p>
+          </div>
+        </div>
+        <div class="cuisine-content-afro">
+          <div class="tittle-with-bar">
+            <h4>French-Caribbean</h4>
+            <p>
+              Classic French refinement meets tropical vibrancy. Confit duck
+              with guava gastrique, lobster bisque with coconut cream.
+            </p>
+          </div>
+        </div>
+        <div class="cuisine-content-afro">
+          <div class="tittle-with-yellow-bar">
+            <h4>Custom Menus</h4>
+            <p>
+              Your vision, our execution. We craft bespoke fusion menus that
+              tell your story and delight your guests.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+        <div class="header-services">
+            <h2>Catering for <span> Every Occasion</span></h2>
+            <p>Whether intimate or grand, we bring world-class flavor to your event.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-item">
+                <h3>💍</h3>
+                <h4>Weddings</h4>
+                <p>Your special day deserves extraordinary cuisine. 
+                    We create custom menus that reflect your love story and cultural heritage.</p>
+            </div>
+            <div class="service-item">
+                <h3>🏢</h3>
+                <h4>Corporate Catering</h4>
+                <p>Impress clients and energize teams with refined Caribbean fusion. 
+                    From boardroom lunches to company galas.</p>
+            </div>
+            <div class="service-item">
+                <h3>🍽️</h3>
+                <h4>Private Dinners</h4>
+                <p>An intimate chef experience in your home.
+                     Multi-course tasting menus with wine pairings and personalized service.</p>
+            </div>
+            <div class="service-item">
+                <h3>🎉</h3>
+                <h4>Special Celebrations</h4>
+                <p>From 50 to 500 guests, we scale without sacrificing quality. 
+                    Festival-style stations or plated fine dining—we deliver.</p>
+            </div>
+
+    </section>
+
     <script src="/js/script.js"></script>
   </body>
 </html>
