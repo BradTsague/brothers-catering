@@ -1,0 +1,88 @@
+.meal {
+    background-color: #0a0a0a;
+    color: #f6f2e9;
+    font-family: Cormorant Garamond, serif;
+}
+.meal-header {
+    text-align: center;
+    padding: 60px 20px;
+    font-family: Cormorant Garamond, serif;
+}
+.meal-header h2 {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 20px;
+    margin-bottom: 40px;
+    color: #f6f2e9;
+    word-spacing: 3px;
+}
+.meal-header span {
+    color: #d9b46a;
+}
+.meal-header p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 15px 0;
+    color: #f6f2e9;
+    line-height: 30px;
+}
+.meal-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+    margin: 0 40px;
+    padding-bottom: 10%;
+}
+.meal-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    transform: scale(1);
+    filter: brightness(0.3);
+    transition: transform 0.5s ease, filter 0.5s ease;
+    
+}
+.meal-item {
+    overflow: hidden;
+    position: relative;
+}
+.meal-item:hover img {
+    transform: scale(1.05);
+    filter: brightness(0.7);
+}
+.card-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #f6f2e9;
+    z-index: 2;
+}
+.card-content h3 {
+    font-size: 1.8rem;
+    margin: 0 0 10px 0;
+}
+.card-content p {
+    font-size: 1rem;
+    opacity: 0.8;
+    color: #d9b46a;
+}
+@media (max-width: 650px) {
+    .meal-gallery {
+        display: block;
+       
+    }
+    .meal-header h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 10px;
+    margin-top: 10%;
+    margin-bottom: 30px;
+    color: #f6f2e9;
+    }
+    .meal-item  {
+        margin-bottom: 20px;
+        border-radius: 8px;
+        
+    }
+}
