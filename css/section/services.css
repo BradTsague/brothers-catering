@@ -32,7 +32,7 @@
     gap: 5px;
     height: fit-content;
     width: auto;
-    margin: 10px ;
+    margin: 10px,10px,0 ;
     align-items: stretch;
     padding-bottom: 10%;
 }

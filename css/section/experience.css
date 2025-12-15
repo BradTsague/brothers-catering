@@ -1,0 +1,86 @@
+.experience {
+    background: #0a0a0a;
+    color: ivory;
+    font-family: Cormorant Garamond, serif;
+    margin: 0;
+    padding: 0;
+}
+.experience-header {
+    text-align: center;
+    padding: 60px 20px 0;
+    margin-bottom: 80px;
+}
+.experience-header h2 {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: ivory;
+    word-spacing: 3px;
+}
+.experience-header span {
+    color: #d9b46a;
+}
+.experience-header p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 15px 0;
+    color: ivory;
+    line-height: 30px;
+}
+.experience-steps {
+    max-width: 1000px;
+    padding: 0 80px 80px;
+    
+}
+.step-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 40px;
+    padding: 30px;
+    
+}
+.step-number {
+    font-size: 4rem;
+    color: #c6a667;
+    margin-left: 20px;
+    filter: brightness(0.3);
+}
+.step-content h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.step-content p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    max-width: 600px;
+}
+.step-item span {
+    color: #d9b46a;
+    margin-right: 10px;
+   
+}
+@media (max-width: 650px) {
+    
+    .experience-header h2 {
+        font-size: 1.7rem;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-weight: 500;
+    }
+    .step-item {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
+        height: auto;
+       justify-content: center;
+       align-items: center;
+    }
+    .step-number {
+        font-size: 2.5rem;
+        margin: 15px;
+    }
+}

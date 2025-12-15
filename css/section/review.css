@@ -1,0 +1,128 @@
+.review {
+    background: #0a0a0a;
+    color: ivory;
+    font-family: Cormorant Garamond, serif;
+    margin: 0;
+    padding: 0 0 50px;
+}
+.review-header {
+    text-align: center;
+    padding: 150px 20px 50px 20px;
+    font-weight: 500;
+    font-size: 2.5rem;
+    word-spacing: 3px;
+    
+}
+.review-header span {
+    color: #d9b46a;
+}
+.grid-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 30px;
+    padding: 0 20px 30px;
+    gap: 20px;
+    height: 70vh;
+    
+}
+.card {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 32px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr ;
+}
+.card h3 {
+    color: #d9b46a;
+    font-weight: 200;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+.card p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+.card h5 {
+    color: #d9b46a;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.card hr {
+   height: 0.1px;
+   background: rgba(255, 255, 255, 0.3);
+   margin: 32px 0 24px;
+   filter: brightness(0.2);
+}
+.review-divider {
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 0;
+    background: linear-gradient(#d9b46a);
+    filter: brightness(0.3);
+    padding-bottom: 0;
+    border: none;
+    box-sizing: content-box;
+}
+@media (max-width: 480px) {
+
+    .review-header {
+        font-size: 1.6rem;
+        padding: 80px 10px 25px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .card h3 {
+        font-size: 1.4rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .review-header {
+        padding: 100px 15px 30px;
+        font-size: 1.9rem;
+        word-spacing: 2px;
+    }
+
+    .grid-card {
+        grid-template-columns: 1fr;
+        margin: 0 10px;
+        padding: 0 10px 20px;
+        gap: 15px;
+        height: auto;
+    }
+
+    .card {
+        margin: 0;
+        padding: 24px;
+        grid-template-rows: auto auto auto;
+    }
+
+    .card h3 {
+        font-size: 1.6rem;
+        padding-bottom: 20px;
+    }
+
+    .card p {
+        font-size: 0.95rem;
+        line-height: 22px;
+    }
+
+    .card h5 {
+        font-size: 1rem;
+    }
+
+    .card hr {
+        margin: 24px 0 20px;
+    }
+}

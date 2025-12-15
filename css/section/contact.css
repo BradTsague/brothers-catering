@@ -1,0 +1,52 @@
+.contact {
+    background: black;
+    font-family: Cormorant Garamond, serif;
+    color: ivory;
+    padding: 128px 80px;
+}
+.contact-header h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    word-spacing: 3px;
+    padding-bottom: 30px;
+
+}
+.contact-header span {
+    color:  #d9b46a;
+}
+.contact-header p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 25px;
+}
+.contact-header {
+    text-align: center;
+    margin: 0 0 70px;
+}
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    
+}
+.name {
+   padding: 5px 10px;
+    
+   
+}
+input {
+    padding: 12px 16px;
+    background-color: #1a1a1a;
+    border: none;
+    width: 100%;
+}
+.name p {
+    padding-bottom: 10px;
+}
+.name5 {
+    padding: 10px;
+}
+.name5 input {
+    height: 50%;
+}

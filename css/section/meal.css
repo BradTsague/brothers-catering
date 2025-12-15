@@ -67,6 +67,17 @@
     opacity: 0.8;
     color: #d9b46a;
 }
+.meal-divider {
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 0;
+    background: linear-gradient(#d9b46a);
+    filter: brightness(0.3);
+    padding-bottom: 0;
+    border: none;
+    box-sizing: content-box;
+}
 @media (max-width: 650px) {
     .meal-gallery {
         display: block;
