@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/section/experience.css" />
     <link rel="stylesheet" href="css/section/review.css">
     <link rel="stylesheet" href="css/section/contact.css">
+    <link rel="stylesheet" href="css/section/footer.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap"
       rel="stylesheet"
@@ -29,7 +30,7 @@
             <li><a href="#text">About </a></li>
             <li><a href="#cuisine">Cuisine</a></li>
             <li><a href="#services">services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <div class="navbar__toggle" id="mobile-menu">
@@ -41,7 +42,7 @@
 
       <div class="hero-content">
         <h2>
-          <span>Caribbean <br /></span> Fusion,
+          <span>Caribbean <br/></span> Fusion,
           <span class="gold"> Redefined</span>
         </h2>
         <p>Fine dining flavor. Unforgettable catering</p>
@@ -275,7 +276,10 @@
         <div class="review-divider"></div>  
     </section>
 
-   <section class="contact">
+
+   
+
+   <section class="contact" id="contact">
     <div class="contact-header">
       <h2>Let's Bring <span>Flavor</span> to Your Event</h2>
       <p>Ready to experience Caribbean fusion excellence? 
@@ -301,10 +305,47 @@
     </div>
       <div class="name5">
         <p>Tell Us About Your Event</p>
-        <input type="text" placeholder="share your vision,dietary requirements,or any special requests..." >
+        <textarea placeholder="share your vision,dietary reuirements, or any special requests ..." id="message"></textarea>
       </div>
+      <button>Submit Inquiry</button>
     
    </section>
+
+   <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3 class="footer-logo"> Be Brothers <span><br>Catering</span></h3>
+        <p>Bold Caribbean fusion cuisine crafted by two brothers—bringing elevated flavor to weddings, 
+          corporate events, and private dining.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4> Quick Links </h4>
+        <ul>
+          <li><a href="#text"> About Us</a></li>
+          <li><a href="#cuisine"> Our Cuisine</a></li>
+          <li><a href="#services"> Services</a></li>
+          <li><a href="#contact"> Book Now</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4> Get in Touch </h4>
+        <p>hello@bebrothers.com</p>
+        <p>(555) 123-4567 </p>
+        <div class="socials">
+          <a href="">Instagram</a>
+          <a href="">Facebook</a>
+          <a href="">LinkedIn</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      &#169 2025 Be Brothers Catering. All rights reserved
+    </div>
+
+   </footer>
 
 
     <script src="/js/script.js"></script>
