@@ -46,7 +46,7 @@
           <span class="gold"> Redefined</span>
         </h2>
         <p>Fine dining flavor. Unforgettable catering</p>
-        <a href="#" class="btn">Request a Quote</a>
+        <a href="#contact" class="btn">Request a Quote</a>
       </div>
 
       <div class="scroll-indicator">
@@ -285,29 +285,32 @@
       <p>Ready to experience Caribbean fusion excellence? 
         Fill out the form below <br> and we'll be in touch within 24 hours.</p>
     </div>
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="8ea75141-23aa-4954-b422-b320ec2340dc">
     <div class="information">
       <div class="name">
         <p>Full Name</p>
-        <input type="text" placeholder=" Enter your name" id="number">
+        <input type="text" name="full_name"  placeholder=" Enter your name" required>
       </div>
       <div class="name">
         <p>Email</p>
-        <input type="text" placeholder=" Enter your Email" id="number">
+        <input type="email" name="email" placeholder=" Enter your Email" required>
       </div>
       <div class="name">
         <p>Event Type</p>
-        <input type="text" placeholder="Wedding,Corporate,etc" id="number" >
+        <input type="text" name="event_type" placeholder="Wedding,Corporate,etc" required>
       </div>
       <div class="name">
         <p>Guest Count</p>
-        <input type="text" placeholder="50" id="number">
+        <input type="number" name="guest_count" placeholder="50" required>
       </div>
     </div>
       <div class="name5">
         <p>Tell Us About Your Event</p>
-        <textarea placeholder="share your vision,dietary reuirements, or any special requests ..." id="message"></textarea>
+        <textarea name="message" placeholder="share your vision,dietary reuirements, or any special requests ..." required></textarea>
       </div>
-      <button>Submit Inquiry</button>
+      <button type="submit">Submit Inquiry</button>
+  </form>
     
    </section>
 
@@ -335,7 +338,7 @@
         <div class="socials">
           <a href="">Instagram</a>
           <a href="">Facebook</a>
-          <a href="">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/brad-tsague-027202352/" target="_blank" rel="noopener  noreferrer">LinkedIn</a>
         </div>
       </div>
 
